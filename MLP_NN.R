@@ -3,7 +3,7 @@ library(neuralnet)
 library(Metrics)
 
 # Read the data set
-exchangeUSD_df = read_xlsx("/Users/thuannaheempakeer/Documents/University/2nd Year/2nd Year (Semester 2)/5DATA001C.2 Machine Learning and Data Mining/1953854/ExchangeUSD.xlsx")
+exchangeUSD_df = read_xlsx("ExchangeUSD.xlsx")
 
 # Extract exchange rates data
 exchangeRates = exchangeUSD_df$`USD/EUR`
